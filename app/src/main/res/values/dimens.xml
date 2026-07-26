@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="original_design_width">1280px</dimen>
+    <dimen name="original_design_height">720px</dimen>
+    <dimen name="loading_width">183px</dimen>
+    <dimen name="loading_height">293px</dimen>
+    <dimen name="loading_position_x">823px</dimen>
+    <dimen name="loading_position_y">110px</dimen>
+    <dimen name="wall_padding_left">9px</dimen>
+    <dimen name="wall_padding_right">9px</dimen>
+    <dimen name="wall_padding_top">10px</dimen>
+    <dimen name="wall_padding_bottom">9px</dimen>
+    <dimen name="shadow_width">1324px</dimen>
+    <dimen name="shadow_height">740px</dimen>
+    <dimen name="wall_min_width">8px</dimen>
+</resources>

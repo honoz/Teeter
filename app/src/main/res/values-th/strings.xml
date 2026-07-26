@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">คุณต้องการเล่นต่อหรือไม่</string>
+    <string name="str_msg_quit">คุณต้องการออกจากโปรแกรมหรือไม่</string>
+    <string name="str_btn_resume">เล่นเกมส์ต่อ</string>
+    <string name="str_btn_quit">ออก</string>
+    <string name="str_btn_restart">เริ่มใหม่</string>
+    <string name="str_level_caption">ระดับ %d เสร็จสิ้น</string>
+    <string name="str_level_time">ระดับเวลา</string>
+    <string name="str_level_attempt">ระดับความพยายาม</string>
+    <string name="str_total_time">เวลารวม</string>
+    <string name="str_total_attempt">ความพยายามทั้งหมด</string>
+    <string name="str_rank_caption">คะแนนสูงสุด</string>
+    <string name="str_no_sensor">Teeter ต้องการ จี-เซ็นเซอร์ (ตัวเพิ่มจังหวะดนตรี) บนมือถือของคุณเพื่อเล่น โทรศัพท์ของคุณไม่มีคุณสมบัตินี้ เกมส์จะทำการปิดเดี๋ยวนี้</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

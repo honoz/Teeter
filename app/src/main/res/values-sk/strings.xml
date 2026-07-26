@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Chcete pokračovať v hraní?</string>
+    <string name="str_msg_quit">Chcete ukončiť?</string>
+    <string name="str_btn_resume">Pokračovať</string>
+    <string name="str_btn_quit">Ukončiť</string>
+    <string name="str_btn_restart">Restartovať</string>
+    <string name="str_level_caption">Úroveň %d dokončená</string>
+    <string name="str_level_time">Čas úrovne</string>
+    <string name="str_level_attempt">Pokusy na úroveň</string>
+    <string name="str_total_time">Celkový čas</string>
+    <string name="str_total_attempt">Pokusy celkom</string>
+    <string name="str_rank_caption">Najvyššie skóre</string>
+    <string name="str_no_sensor">Hra Teeter vyžaduje pre hranie na telefóne G-senzor (merač rýchlosti). Váš telefón túto funkciu nemá. Hra Teeter bude teraz ukončená.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

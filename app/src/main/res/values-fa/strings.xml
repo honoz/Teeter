@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">مایلید به بازی ادامه دهيد؟</string>
+    <string name="str_msg_quit">مایلید خارج شوید؟</string>
+    <string name="str_btn_resume">ادامه</string>
+    <string name="str_btn_quit">خروج</string>
+    <string name="str_btn_restart">راه‌اندازی مجدد</string>
+    <string name="str_level_caption">سطح %d تکمیل شد</string>
+    <string name="str_level_time">زمان سطح</string>
+    <string name="str_level_attempt">تلاش‌هاي سطح</string>
+    <string name="str_total_time">زمان کل</string>
+    <string name="str_total_attempt">کل تلاش‌ها</string>
+    <string name="str_rank_caption">بالاترین امتیازات</string>
+    <string name="str_no_sensor">برای بازی کردن Teeter به حسگر G (شتاب سنج) در تلفن نیاز دارید. تلفن شما دارای این ویژگی نیست. Teeter اکنون بسته خواهد شد.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

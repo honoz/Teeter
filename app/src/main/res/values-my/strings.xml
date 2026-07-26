@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">ဆော့လိုက်ချင်ပါသလား?</string>
+    <string name="str_msg_quit">ထွက်ချင်ပါသလား?</string>
+    <string name="str_btn_resume">ဆက်လက်ကစားပါ</string>
+    <string name="str_btn_quit">ထွက်ပါ</string>
+    <string name="str_btn_restart">ပြန်စပါ</string>
+    <string name="str_level_caption">Level %d ပြီးဆုံးပါပြီ</string>
+    <string name="str_level_time">အဆင့်အချိန်</string>
+    <string name="str_level_attempt">အဆင့်အကြိမ်</string>
+    <string name="str_total_time">စုစုပေါင်းအချိန်</string>
+    <string name="str_total_attempt">စုစုပေါင်းအကြိမ်</string>
+    <string name="str_rank_caption">အမြင့်ဆုံးအမှတ်များ</string>
+    <string name="str_no_sensor">Teeter ကစားရန် ဖုန်းတွင် G-Sensor (accelerometer) လိုအပ်ပါသည်။ သင့်ဖုန်းတွင် ဤလုပ်ဆောင်ချက်မရှိပါ။ Teeter ယခုပိတ်ပါမည်။</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

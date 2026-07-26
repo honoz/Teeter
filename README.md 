@@ -1,0 +1,98 @@
+# Teeter
+
+A classic maze ball-rolling game based on the Android platform. This project fixes, refactors, and modernizes the decompiled code from [teeter_htc_decomp](https://github.com/ceclandumitru/teeter_htc_decomp), making the originally non-compilable decompiled output buildable and runnable on current Android devices. It recreates the classic Teeter maze ball game that was pre-installed on HTC phones. Players tilt their device (using the accelerometer) to control the ball through the maze, avoid traps, and reach the finish.
+
+## Project Origin
+
+The code of this project originates from the decompiled reconstruction of the HTC built-in game `com.htc.android.teeter`:
+
+- **Original decompiled project**: [ceclandumitru/teeter_htc_decomp](https://github.com/ceclandumitru/teeter_htc_decomp)
+
+Since the original decompiled code could not be compiled and run directly, this project has made extensive fixes and improvements on top of it, including but not limited to:
+
+- Fixed compilation errors and adapted to the modern Android build toolchain
+- Migrated Java code to Kotlin
+- Adapted to AndroidX and new APIs
+- Fixed runtime issues and improved multi-screen aspect ratio adaptation
+- Optimized and refactored code structure
+
+## Game Features
+
+- **Motion control**: Control the ball movement using the device's built-in accelerometer (G-Sensor)
+- **Multiple levels**: Supports multiple level designs, with level data defined via XML configuration files
+- **3D physics simulation**: 3D acceleration decomposition based on diamond-shaped regions, simulating tilt gravity effects across different areas
+- **Splash animation**: 60-frame frame-by-frame animated splash screen
+- **Animation effects**: Ball falling into hole animation, level completion animation
+- **Progress saving**: Automatically saves/restores game progress (level, time, number of attempts, etc.)
+- **Multi-language support**: Supports 30+ languages/regions
+- **Multi-screen aspect ratio adaptation**: Supports centered display for different screen aspect ratios such as 16:9 and 21:9
+
+## Tech Stack
+
+| Item           | Description                   |
+| -------------- | ----------------------------- |
+| Language       | Kotlin                        |
+| Min API        | Android 6.0 (API 23)          |
+| Target API     | Android 16 (API 36)           |
+| Build Tool     | Gradle (Kotlin DSL)           |
+| AGP Version    | 9.0.1                         |
+| UI Framework   | AndroidX AppCompat + Material |
+| Dependency Mgmt| Version Catalog (libs.versions.toml) |
+
+## Project Structure
+
+```
+app/src/main/java/com/htc/android/teeter/
+├── utils/
+│   ├── LogUtils.kt          # Logging utility
+│   └── TTConstants.kt       # Constant definitions
+├── CBall.kt                 # Ball logic (physics movement, collision detection)
+├── CBGLoadingThread.kt      # Background loading thread
+├── CCoverActivity.kt        # Splash animation Activity
+├── CDispMgr.kt              # Display manager
+├── CGameModel.kt            # Game core model (state machine, save data)
+├── CGamePage.kt             # Game page rendering
+├── CL.kt                    # Level data (walls, holes, finish, acceleration zones)
+├── CRankPage.kt             # Leaderboard page
+├── CS.kt                    # Game statistics (time, number of attempts)
+├── CScorePage.kt            # Score settlement page
+├── CTeeterActivity.kt       # Game main Activity
+├── CTime.kt                 # Timer
+├── CU.kt                    # Global utility/constants
+├── GameView.kt              # Custom game rendering View
+├── Point3D.kt               # 3D point
+├── Triangle.kt              # Triangle (zone detection)
+├── Vector.kt                # 2D vector
+└── Vector3D.kt              # 3D vector
+```
+## Build & Run
+
+### Environment Requirements
+
+- Android Studio (version supporting AGP 9.0.1)
+- JDK 11+
+- Android SDK (compileSdk 36)
+
+### Runtime Requirements
+
+- Device must be equipped with an accelerometer (G-Sensor)
+- Game is forced to landscape orientation
+- Devices without a sensor will show a prompt and exit
+
+## Core Gameplay
+
+1. After launching the game, a splash animation plays, then the game main screen appears
+2. Tilt the device to control the ball rolling through the maze
+3. The ball must avoid holes (traps) and reach the finish to complete the level
+4. Each level records the completion time and number of attempts
+5. Game progress is automatically saved and can be resumed on the next launch
+
+## Disclaimer
+
+This project is based on repaired and refactored decompiled code from the HTC built-in game `com.htc.android.teeter`, and is intended solely for personal learning and technical research purposes. Any commercial use is strictly prohibited.
+
+The copyright of the original game `Teeter` belongs to HTC Corporation. This project has no affiliation with HTC Corporation and makes no claim to any rights over the original game.
+
+This project is provided "as is" without any express or implied warranties, including but not limited to warranties of merchantability or fitness for a particular purpose. Any issues arising from the use of this project shall be borne solely by the user.
+
+In the event of any copyright infringement, please contact the project author for removal.

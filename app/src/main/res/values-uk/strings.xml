@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Продовжити гру?</string>
+    <string name="str_msg_quit">Вийти?</string>
+    <string name="str_btn_resume">Підсумки</string>
+    <string name="str_btn_quit">Вийти</string>
+    <string name="str_btn_restart">Перезапустити</string>
+    <string name="str_level_caption">Рівень %d пройдено</string>
+    <string name="str_level_time">Час рівня</string>
+    <string name="str_level_attempt">Спроб за рівнями</string>
+    <string name="str_total_time">Загальний час</string>
+    <string name="str_total_attempt">Загальна кількість спроб</string>
+    <string name="str_rank_caption">Рекорди</string>
+    <string name="str_no_sensor">Teeter потрібен датчик повертання екрана (акселерометр) у телефоні для відтворення. У вашому телефоні немає цієї функції. Teeter буде закритий.</string>
+    <string name="str_time" formatted="false">% 02d:%02d:%02d</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Doreşti să continui să joci?</string>
+    <string name="str_msg_quit">Doreşti să ieşi?</string>
+    <string name="str_btn_resume">Reluare</string>
+    <string name="str_btn_quit">Ieşire</string>
+    <string name="str_btn_restart">Repornire</string>
+    <string name="str_level_caption">Nivelul %d terminat</string>
+    <string name="str_level_time">Durată nivel</string>
+    <string name="str_level_attempt">Încercări nivel</string>
+    <string name="str_total_time">Durată totală</string>
+    <string name="str_total_attempt">Total încercări</string>
+    <string name="str_rank_caption">Recorduri</string>
+    <string name="str_no_sensor">Teeter necesită un senzor G (accelerometru) pe telefon pentru a funcţiona. Telefonul tău nu are această caracteristică. Teeter se va închide acum.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

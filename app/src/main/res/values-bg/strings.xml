@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Искате ли да продължите да играете?</string>
+    <string name="str_msg_quit">Искате ли да излезете?</string>
+    <string name="str_btn_resume">Подновяване</string>
+    <string name="str_btn_quit">Изход</string>
+    <string name="str_btn_restart">Рестартиране</string>
+    <string name="str_level_caption">%d от нивото е завършено</string>
+    <string name="str_level_time">Време на това ниво</string>
+    <string name="str_level_attempt">Опити на това ниво</string>
+    <string name="str_total_time">Общо време</string>
+    <string name="str_total_attempt">Общ брой опити</string>
+    <string name="str_rank_caption">Най-високи резултати</string>
+    <string name="str_no_sensor">За да можете да играете Teeter на телефона, ви е необходим G-сензор (акселерометър). Телефонът ви няма тази функция. Teeter ще бъде затворена.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

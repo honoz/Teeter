@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Επιθυμείτε να συνεχίσετε με την αναπαραγωγή;</string>
+    <string name="str_msg_quit">Επιθυμείτε την έξοδο;</string>
+    <string name="str_btn_resume">Συνέχιση</string>
+    <string name="str_btn_quit">Έξοδος</string>
+    <string name="str_btn_restart">Επανεκκίνηση</string>
+    <string name="str_level_caption">Επίπεδο %d ολοκληρώθηκε</string>
+    <string name="str_level_time">Διάρκεια επιπέδου</string>
+    <string name="str_level_attempt">Προσπάθειες επιπέδου</string>
+    <string name="str_total_time">Συνολικός χρόνος</string>
+    <string name="str_total_attempt">Σύνολο προσπαθειών</string>
+    <string name="str_rank_caption">Υψηλή βαθμολογία</string>
+    <string name="str_no_sensor">Το Teeter απαιτεί ύπαρξη G-Sensor (επιταχυνσιόμετρο) στο τηλέφωνο για αναπαραγωγή. Το τηλέφωνό σας δεν διαθέτει αυτήν τη δυνατότητα. Το Teeter θα κλείσει τώρα.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

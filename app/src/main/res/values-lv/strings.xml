@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Vai vēlaties turpināt atskaņošanu?</string>
+    <string name="str_msg_quit">Vai vēlaties iziet?</string>
+    <string name="str_btn_resume">Atsākt</string>
+    <string name="str_btn_quit">Iziet</string>
+    <string name="str_btn_restart">Restartēt</string>
+    <string name="str_level_caption">Līmenis %d ir pabeigts</string>
+    <string name="str_level_time">Līmeņa laiks</string>
+    <string name="str_level_attempt">Līmeņa mēģinājumi</string>
+    <string name="str_total_time">Kopējais laiks</string>
+    <string name="str_total_attempt">Kopējais mēģinājumu skaits</string>
+    <string name="str_rank_caption">Rekordi</string>
+    <string name="str_no_sensor">Lai atskaņotu, tālrunī ir nepieciešams G sensors (akselerometrs). Tālrunim nav šīs funkcijas. Teeter aizvērsies.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

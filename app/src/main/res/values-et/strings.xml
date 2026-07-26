@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Kas soovite mängimist jätkata?</string>
+    <string name="str_msg_quit">Kas soovite lõpetada?</string>
+    <string name="str_btn_resume">Taasta</string>
+    <string name="str_btn_quit">Lõpeta</string>
+    <string name="str_btn_restart">Taaskäivita</string>
+    <string name="str_level_caption">Tase %d lõpetatud</string>
+    <string name="str_level_time">Taseme aeg</string>
+    <string name="str_level_attempt">Taseme katsed</string>
+    <string name="str_total_time">Aega kokku</string>
+    <string name="str_total_attempt">Katseid kokku</string>
+    <string name="str_rank_caption">Parimad tulemused</string>
+    <string name="str_no_sensor">Teeter nõuab G-sensori (kiirendusmõõtur) töötamist telefonis. Teie telefonil pole seda funktsiooni. Teeter sulgub nüüd.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

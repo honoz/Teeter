@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Продолжить игру?</string>
+    <string name="str_msg_quit">Выйти?</string>
+    <string name="str_btn_resume">Продолжить</string>
+    <string name="str_btn_quit">Выход</string>
+    <string name="str_btn_restart">Перезапустить</string>
+    <string name="str_level_caption">Уровень %d пройден</string>
+    <string name="str_level_time">Время уровня</string>
+    <string name="str_level_attempt">Попыток</string>
+    <string name="str_total_time">Общее время</string>
+    <string name="str_total_attempt">Всего попыток</string>
+    <string name="str_rank_caption">Результаты</string>
+    <string name="str_no_sensor">Для работы игры Teeter в телефоне должен быть G-Сенсор (акселерометр). В вашем телефоне отсутствует эта функция. Приложение Teeter будет закрыто.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

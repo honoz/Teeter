@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <level count="32"/>
+    <ball radius="36"/>
+    <hole radius="44"/>
+    <ending radius="44"/>
+    <gravity value="300"/>
+    <friction value="20"/>
+    <bounce_rate value="0.45"/>
+    <speed_limit value="40000"/>
+    <vibrate_speed value="8000"/>
+    <end_ratio value="1.0"/>
+    <hole_ratio value="1.0"/>
+    <ball_ratio value="1.49"/>
+    <hole_anim_ratio value="1.46"/>
+    <v_hit value="20"/>
+    <v_hole length="6">
+        <pattern value="0"/>
+        <pattern value="25"/>
+        <pattern value="100"/>
+        <pattern value="50"/>
+        <pattern value="60"/>
+        <pattern value="40"/>
+    </v_hole>
+    <v_ending length="6">
+        <pattern value="0"/>
+        <pattern value="25"/>
+        <pattern value="100"/>
+        <pattern value="20"/>
+        <pattern value="80"/>
+        <pattern value="15"/>
+    </v_ending>
+</config>

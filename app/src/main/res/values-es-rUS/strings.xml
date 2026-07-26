@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">¿Desea continuar jugando?</string>
+    <string name="str_msg_quit">¿Desea salir?</string>
+    <string name="str_btn_resume">Reanudar</string>
+    <string name="str_btn_quit">Salir</string>
+    <string name="str_btn_restart">Reiniciar</string>
+    <string name="str_level_caption">Nivel %d completado</string>
+    <string name="str_level_time">Tiempo del nivel</string>
+    <string name="str_level_attempt">Intentos del nivel</string>
+    <string name="str_total_time">Tiempo total</string>
+    <string name="str_total_attempt">Intentos totales</string>
+    <string name="str_rank_caption">Puntuaciones altas</string>
+    <string name="str_no_sensor">Tweeter requiere un Sensor-G (acelerómetro) en el teléfono para poder reproducir. Su teléfono no cuenta con esta función. Teeter se cerrará ahora.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

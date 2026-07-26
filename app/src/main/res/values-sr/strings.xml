@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Da li želite da nastavite igru?</string>
+    <string name="str_msg_quit">Da li želite da napustite igru?</string>
+    <string name="str_btn_resume">Nastavi</string>
+    <string name="str_btn_quit">Napusti</string>
+    <string name="str_btn_restart">Ponovo pokreni</string>
+    <string name="str_level_caption">Završen je %d nivo.</string>
+    <string name="str_level_time">Vreme nivoa</string>
+    <string name="str_level_attempt">Nivo pokušaja</string>
+    <string name="str_total_time">Ukupno vreme</string>
+    <string name="str_total_attempt">Ukupan broj pokušaja</string>
+    <string name="str_rank_caption">Rezultati</string>
+    <string name="str_no_sensor">Teeter zahteva aktivan G-senzor na telefonu. Vaš telefon nema tu opciju. Teeter će se sada zatvoriti.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

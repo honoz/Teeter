@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Bạn có muốn tiếp tục chơi?</string>
+    <string name="str_msg_quit">Bạn có muốn thoát?</string>
+    <string name="str_btn_resume">Tiếp tục lại</string>
+    <string name="str_btn_quit">Thoát</string>
+    <string name="str_btn_restart">Khởi động lại</string>
+    <string name="str_level_caption">Đã qua vòng %d</string>
+    <string name="str_level_time">Thời gian qua vòng</string>
+    <string name="str_level_attempt">Số lần thử cho vòng</string>
+    <string name="str_total_time">Tổng thời gian</string>
+    <string name="str_total_attempt">Tổng số lần thử</string>
+    <string name="str_rank_caption">Điểm cao nhất</string>
+    <string name="str_no_sensor">Teeter cần có chíp cảm biến chuyển động trên máy mới chơi được. Điện thoại của bạn không có tính năng này. Sẽ phải đóng Teeter ngay.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Haluatko jatkaa pelaamista?</string>
+    <string name="str_msg_quit">Haluatko lopettaa?</string>
+    <string name="str_btn_resume">Jatka</string>
+    <string name="str_btn_quit">Lopeta</string>
+    <string name="str_btn_restart">Käynnistä uudelleen</string>
+    <string name="str_level_caption">Taso %d läpäisty</string>
+    <string name="str_level_time">Aika</string>
+    <string name="str_level_attempt">Yritykset</string>
+    <string name="str_total_time">Aika yhteensä</string>
+    <string name="str_total_attempt">Yrityksiä yhteensä</string>
+    <string name="str_rank_caption">Parhaat tulokset</string>
+    <string name="str_no_sensor">Teeterin pelaaminen edellyttää, että puhelimessa on G-anturi (kiihtyvyysanturi). Puhelimessasi ei ole tätä ominaisuutta. Teeter suljetaan.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

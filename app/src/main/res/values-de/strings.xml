@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Möchten Sie das Spiel fortsetzen?</string>
+    <string name="str_msg_quit">Möchten Sie das Spiel beenden?</string>
+    <string name="str_btn_resume">Fortsetzen</string>
+    <string name="str_btn_quit">Beenden</string>
+    <string name="str_btn_restart">Neu starten</string>
+    <string name="str_level_caption">Level %d Beendet</string>
+    <string name="str_level_time">Zeit für das Level</string>
+    <string name="str_level_attempt">Versuche für das Level</string>
+    <string name="str_total_time">Zeit gesamt</string>
+    <string name="str_total_attempt">Versuche gesamt</string>
+    <string name="str_rank_caption">Beste Ergebnisse</string>
+    <string name="str_no_sensor">Für Teeter wird ein G-Sensor (Beschleunigungssensor) auf dem Telefon benötigt. Ihr Telefon verfügt nicht über diese Funktion. Teeter wird jetzt beendet.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

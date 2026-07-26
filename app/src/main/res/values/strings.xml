@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Do you want to continue playing?</string>
+    <string name="str_msg_quit">Do you want to quit?</string>
+    <string name="str_btn_resume">Resume</string>
+    <string name="str_btn_quit">Quit</string>
+    <string name="str_btn_restart">Restart</string>
+    <string name="str_level_caption">Level %d completed</string>
+    <string name="str_level_time">Level time</string>
+    <string name="str_level_attempt">Level attempts</string>
+    <string name="str_total_time">Total time</string>
+    <string name="str_total_attempt">Total attempts</string>
+    <string name="str_rank_caption">High scores</string>
+    <string name="str_no_sensor">Teeter requires a G-Sensor (accelerometer) on the phone to play. Your phone does not have this feature. Teeter will now close.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+    <string name="private_app" translatable="false">Teeter</string>
+</resources>

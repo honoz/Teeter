@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">האם ברצונך להמשיך ולהפעיל?</string>
+    <string name="str_msg_quit">האם ברצונך לצאת?</string>
+    <string name="str_btn_resume">המשך</string>
+    <string name="str_btn_quit">צא</string>
+    <string name="str_btn_restart">הפעל מחדש</string>
+    <string name="str_level_caption">רמה %d הסתיימה</string>
+    <string name="str_level_time">משך זמן הרמה</string>
+    <string name="str_level_attempt">מספר נסיונות הרמה</string>
+    <string name="str_total_time">סה\"כ משך הזמן</string>
+    <string name="str_total_attempt">סה\"כ נסיונות</string>
+    <string name="str_rank_caption">התוצאות הטובות ביותר</string>
+    <string name="str_no_sensor">למשחק המבוך נדרש G-Sensor (מד תאוצה) בטלפון. לטלפון שלך אין תכונה זו. משחק המבוך יסגר כעת.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

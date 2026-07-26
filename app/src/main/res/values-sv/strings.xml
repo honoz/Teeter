@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Vill du fortsätta spela?</string>
+    <string name="str_msg_quit">Vill du avsluta?</string>
+    <string name="str_btn_resume">Fortsätt</string>
+    <string name="str_btn_quit">Avsluta</string>
+    <string name="str_btn_restart">Starta om</string>
+    <string name="str_level_caption">Nivå %d slutförd</string>
+    <string name="str_level_time">Nivåtid</string>
+    <string name="str_level_attempt">Nivåförsök</string>
+    <string name="str_total_time">Total tid</string>
+    <string name="str_total_attempt">Totalt antal försök</string>
+    <string name="str_rank_caption">Högsta poäng</string>
+    <string name="str_no_sensor">Telefonen måste ha en G-Sensor (accelerometer) för att spela Teeter. Din telefon har ingen sådan. Teeter kommer nu att stängas.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

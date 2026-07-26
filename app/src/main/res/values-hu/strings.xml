@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Szeretné folytatni a játékot?</string>
+    <string name="str_msg_quit">Szeretne kilépni?</string>
+    <string name="str_btn_resume">Folytatás</string>
+    <string name="str_btn_quit">Kilépés</string>
+    <string name="str_btn_restart">Újraindítás</string>
+    <string name="str_level_caption">%d. szint teljesítve</string>
+    <string name="str_level_time">Szintidő</string>
+    <string name="str_level_attempt">Szint próbálkozások</string>
+    <string name="str_total_time">Összes idő</string>
+    <string name="str_total_attempt">Összes próbálkozás</string>
+    <string name="str_rank_caption">Legmagasabb pontok</string>
+    <string name="str_no_sensor">A Teeter használatához egy G-Sensor (gyorsulásmérő) szükséges a telefonon. A telefon nem rendelkezik ezzel a funkcióval. A Teeter bezárásra kerül.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

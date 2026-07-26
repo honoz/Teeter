@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">계속 하시겠습니까?</string>
+    <string name="str_msg_quit">종료 하시겠습니까?</string>
+    <string name="str_btn_resume">다시 시작</string>
+    <string name="str_btn_quit">종료</string>
+    <string name="str_btn_restart">다시 시작</string>
+    <string name="str_level_caption">레벨 %d 완료</string>
+    <string name="str_level_time">레벨 시간</string>
+    <string name="str_level_attempt">레벨 시도</string>
+    <string name="str_total_time">총 시간</string>
+    <string name="str_total_attempt">총 시도</string>
+    <string name="str_rank_caption">최고 점수</string>
+    <string name="str_no_sensor">Teeter를 실행하기 위해 휴대폰에 G-센서 (가속도계)가 필요합니다. 사용자의 휴대폰에는 이 기능이 없습니다. Teeter가 종료됩니다.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

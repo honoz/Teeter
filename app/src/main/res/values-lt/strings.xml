@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Ar norite toliau žaisti?</string>
+    <string name="str_msg_quit">Ar norite baigti?</string>
+    <string name="str_btn_resume">Tęsti</string>
+    <string name="str_btn_quit">Baigti</string>
+    <string name="str_btn_restart">Paleisti iš naujo</string>
+    <string name="str_level_caption">%d lygis baigtas</string>
+    <string name="str_level_time">Lygio laikas</string>
+    <string name="str_level_attempt">Lygio bandymai</string>
+    <string name="str_total_time">Bendras laikas</string>
+    <string name="str_total_attempt">Iš viso bandymų</string>
+    <string name="str_rank_caption">Rekordai</string>
+    <string name="str_no_sensor">Kad būtų galima žaisti Teeter, telefone turi būti G jutiklis (akcelerometras). Jūsų telefonas neturi šios funkcijos. Teeter programa bus uždaryta.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Ali želite nadaljevati z igranjem?</string>
+    <string name="str_msg_quit">Ali želite zapreti aplikacijo?</string>
+    <string name="str_btn_resume">Nadaljuj</string>
+    <string name="str_btn_quit">Izhod</string>
+    <string name="str_btn_restart">Ponovni zagon</string>
+    <string name="str_level_caption">Stopnja %d je končana</string>
+    <string name="str_level_time">Čas za končanje stopnje</string>
+    <string name="str_level_attempt">Število poskusov po stopnjah</string>
+    <string name="str_total_time">Skupen čas</string>
+    <string name="str_total_attempt">Skupno število poskusov</string>
+    <string name="str_rank_caption">Najvišji rezultati</string>
+    <string name="str_no_sensor">Za igranje igre Teeter morate na telefonu imeti nameščen G-Sensor. Vaš telefon te funkcije nima nameščene, zato se bo Teeter zdaj zaprl.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

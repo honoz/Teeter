@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">هل تريد متابعة التشغيل؟</string>
+    <string name="str_msg_quit">هل تريد الإنهاء؟</string>
+    <string name="str_btn_resume">استئناف</string>
+    <string name="str_btn_quit">خروج</string>
+    <string name="str_btn_restart">إعادة التشغيل</string>
+    <string name="str_level_caption">تم استكمال المستوى %d</string>
+    <string name="str_level_time">وقت المستوى</string>
+    <string name="str_level_attempt">محاولات المستوى</string>
+    <string name="str_total_time">إجمالي الوقت</string>
+    <string name="str_total_attempt">إجمالي المحاولات</string>
+    <string name="str_rank_caption">أعلى النتائج</string>
+    <string name="str_no_sensor">يتطلب تشغيل Teeter وجود مستشعر الجاذبية G-Sensor على الهاتف. لا توجد هذه الميزة في الهاتف. سيتم إغلاق لعبة Teeter الآن.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="str_msg_continue">Oynamaya devam etmek istiyor musunuz?</string>
+    <string name="str_msg_quit">Çıkmak mı istiyorsunuz?</string>
+    <string name="str_btn_resume">Devam et</string>
+    <string name="str_btn_quit">Çık</string>
+    <string name="str_btn_restart">Yeniden başlat</string>
+    <string name="str_level_caption">Seviye %d tamamlandı</string>
+    <string name="str_level_time">Seviye süresi</string>
+    <string name="str_level_attempt">Seviye denemeleri</string>
+    <string name="str_total_time">Toplam süre</string>
+    <string name="str_total_attempt">Toplam denemeler</string>
+    <string name="str_rank_caption">Yüksek puanlar</string>
+    <string name="str_no_sensor">Teeter\'ın oynanması için telefonda bir G-Sensor (akselorometre) olması gereklidir. Telefonunuzda bu özellik yok. Teeter şimdi kapanacak.</string>
+    <string name="str_time" formatted="false">%02d:%02d:%02d</string>
+</resources>
