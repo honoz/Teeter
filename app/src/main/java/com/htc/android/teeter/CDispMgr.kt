@@ -160,6 +160,9 @@ class CDispMgr(activity: Activity) {
             mEndPlayer?.isLooping = false
             mHolePlayer?.isLooping = false
             mFinishPlayer?.isLooping = false
+            mEndPlayer?.setOnSeekCompleteListener { mp -> mp.start() }
+            mHolePlayer?.setOnSeekCompleteListener { mp -> mp.start() }
+            mFinishPlayer?.setOnSeekCompleteListener { mp -> mp.start() }
             mVibrator = if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.S) {
                 val vibratorManager = act.getSystemService(Context.VIBRATOR_MANAGER_SERVICE) as? android.os.VibratorManager
                 vibratorManager?.defaultVibrator
@@ -176,17 +179,14 @@ class CDispMgr(activity: Activity) {
                         EFF_AT_HOLE -> {
                             vibratePattern(CU.VIBRATION_HOLE)
                             mHolePlayer?.seekTo(0)
-                            mHolePlayer?.start()
                         }
                         EFF_AT_END -> {
                             vibratePattern(CU.VIBRATION_END)
                             if (CU.LEVEL >= CU.LEVEL_COUNT) {
-                                mFinishPlayer?.seekTo(0)
-                                mFinishPlayer?.start()
                                 CU.GAME_OVER = true
+                                mFinishPlayer?.seekTo(0)
                             } else {
                                 mEndPlayer?.seekTo(0)
-                                mEndPlayer?.start()
                             }
                         }
                     }
