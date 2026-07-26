@@ -22,7 +22,10 @@ class CBGLoadingThread(private var mActivity: Activity?, private val mLevel: Int
 
     init {
         val activity = mActivity ?: throw IllegalStateException("Activity must not be null")
-        val option = BitmapFactory.Options().apply { inScaled = false }
+        val option = BitmapFactory.Options().apply {
+            inScaled = false
+            inPreferredConfig = Bitmap.Config.ARGB_8888
+        }
         @Suppress("DiscouragedApi")
         val newShadowId = activity.resources.getIdentifier("teeter_bar_shadow", "drawable", activity.packageName)
         if (mBmpEnd == null) {
@@ -156,6 +159,7 @@ class CBGLoadingThread(private var mActivity: Activity?, private val mLevel: Int
         val option = BitmapFactory.Options().apply {
             inScaled = false
             inMutable = true
+            inPreferredConfig = Bitmap.Config.ARGB_8888
         }
         val viewBmp = if (CL.mIsFacet) {
             BitmapFactory.decodeResource(activity.resources, R.drawable.facet, option)

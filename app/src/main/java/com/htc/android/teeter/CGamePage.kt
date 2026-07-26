@@ -25,7 +25,10 @@ internal class CGamePage(activity: Activity) {
     private var mCurrentAnimView: ImageView? = null
 
     init {
-        val option = BitmapFactory.Options().apply { inScaled = false }
+        val option = BitmapFactory.Options().apply {
+            inScaled = false
+            inPreferredConfig = Bitmap.Config.ARGB_8888
+        }
         val endAnimBmp = BitmapFactory.decodeResource(activity.resources, R.drawable.end_anim, option)
         val squareCount = endAnimBmp.width / endAnimBmp.height
         val height = endAnimBmp.height

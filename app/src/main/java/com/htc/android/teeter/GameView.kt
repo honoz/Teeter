@@ -29,7 +29,10 @@ class GameView(context: Context) : FrameLayout(context) {
     }
 
     fun setBallSize(newWidth: Int, newHeight: Int) {
-        val opts = BitmapFactory.Options().apply { inScaled = false }
+        val opts = BitmapFactory.Options().apply {
+            inScaled = false
+            inPreferredConfig = Bitmap.Config.ARGB_8888
+        }
         val source = BitmapFactory.decodeResource(context.resources, R.drawable.ball, opts) ?: return
         val width = source.width
         val height = source.height

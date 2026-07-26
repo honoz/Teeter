@@ -3,6 +3,7 @@ package com.htc.android.teeter
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.pm.ActivityInfo
+import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.drawable.AnimationDrawable
 import android.graphics.drawable.BitmapDrawable
@@ -111,7 +112,10 @@ class CCoverActivity : AppCompatActivity() {
     private fun prepareAnimationData() {
         val res = resources
         mHoleDrw = CAnimDra()
-        val option = BitmapFactory.Options().apply { inScaled = false }
+        val option = BitmapFactory.Options().apply {
+            inScaled = false
+            inPreferredConfig = Bitmap.Config.ARGB_8888
+        }
         val splashIds = intArrayOf(
             R.drawable.splash_0001, R.drawable.splash_0002, R.drawable.splash_0003,
             R.drawable.splash_0004, R.drawable.splash_0005, R.drawable.splash_0006,
@@ -311,7 +315,10 @@ class CCoverActivity : AppCompatActivity() {
 
     private fun setupSplashBackground() {
         val res = resources
-        val option = BitmapFactory.Options().apply { inScaled = false }
+        val option = BitmapFactory.Options().apply {
+            inScaled = false
+            inPreferredConfig = Bitmap.Config.ARGB_8888
+        }
         val bmp = BitmapFactory.decodeResource(res, R.drawable.splash_bg, option) ?: return
         ivSplashBg = object : AppCompatImageView(this) {
             override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
@@ -347,7 +354,10 @@ class CCoverActivity : AppCompatActivity() {
         }
 
         val res = resources
-        val option = BitmapFactory.Options().apply { inScaled = false }
+        val option = BitmapFactory.Options().apply {
+            inScaled = false
+            inPreferredConfig = Bitmap.Config.ARGB_8888
+        }
         val bmp = BitmapFactory.decodeResource(res, R.drawable.splash_bg, option)
             ?: return FrameLayout.LayoutParams(0, 0)
         val bgW = bmp.width
