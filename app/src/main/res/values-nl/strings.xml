@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Doorgaan</string>
     <string name="str_btn_quit">Stoppen</string>
     <string name="str_btn_restart">Opnieuw starten</string>
+    <string name="str_btn_cancel">Annuleren</string>
     <string name="str_level_caption">Level %d voltooid</string>
     <string name="str_level_time">Leveltijd</string>
     <string name="str_level_attempt">Pogingen per level</string>

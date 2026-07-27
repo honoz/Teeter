@@ -5,6 +5,7 @@
     <string name="str_btn_resume">استئناف</string>
     <string name="str_btn_quit">خروج</string>
     <string name="str_btn_restart">إعادة التشغيل</string>
+    <string name="str_btn_cancel">إلغاء</string>
     <string name="str_level_caption">تم استكمال المستوى %d</string>
     <string name="str_level_time">وقت المستوى</string>
     <string name="str_level_attempt">محاولات المستوى</string>

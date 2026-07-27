@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Продолжить</string>
     <string name="str_btn_quit">Выход</string>
     <string name="str_btn_restart">Перезапустить</string>
+    <string name="str_btn_cancel">Отмена</string>
     <string name="str_level_caption">Уровень %d пройден</string>
     <string name="str_level_time">Время уровня</string>
     <string name="str_level_attempt">Попыток</string>

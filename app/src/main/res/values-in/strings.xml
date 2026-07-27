@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Lanjutkan kembali</string>
     <string name="str_btn_quit">Keluar</string>
     <string name="str_btn_restart">Mulai ulang</string>
+    <string name="str_btn_cancel">Batal</string>
     <string name="str_level_caption">Level %d selesai</string>
     <string name="str_level_time">Waktu level</string>
     <string name="str_level_attempt">Upaya level</string>

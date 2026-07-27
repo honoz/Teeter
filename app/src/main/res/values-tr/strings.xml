@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Devam et</string>
     <string name="str_btn_quit">Çık</string>
     <string name="str_btn_restart">Yeniden başlat</string>
+    <string name="str_btn_cancel">İptal</string>
     <string name="str_level_caption">Seviye %d tamamlandı</string>
     <string name="str_level_time">Seviye süresi</string>
     <string name="str_level_attempt">Seviye denemeleri</string>

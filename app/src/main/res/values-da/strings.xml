@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Fortsæt</string>
     <string name="str_btn_quit">Afslut</string>
     <string name="str_btn_restart">Genstart</string>
+    <string name="str_btn_cancel">Annuller</string>
     <string name="str_level_caption">Niveau %d fuldført</string>
     <string name="str_level_time">Niveautid</string>
     <string name="str_level_attempt">Niveauforsøg</string>

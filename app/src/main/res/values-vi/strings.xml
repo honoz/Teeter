@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Tiếp tục lại</string>
     <string name="str_btn_quit">Thoát</string>
     <string name="str_btn_restart">Khởi động lại</string>
+    <string name="str_btn_cancel">Hủy</string>
     <string name="str_level_caption">Đã qua vòng %d</string>
     <string name="str_level_time">Thời gian qua vòng</string>
     <string name="str_level_attempt">Số lần thử cho vòng</string>

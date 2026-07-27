@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Подновяване</string>
     <string name="str_btn_quit">Изход</string>
     <string name="str_btn_restart">Рестартиране</string>
+    <string name="str_btn_cancel">Отказ</string>
     <string name="str_level_caption">%d от нивото е завършено</string>
     <string name="str_level_time">Време на това ниво</string>
     <string name="str_level_attempt">Опити на това ниво</string>

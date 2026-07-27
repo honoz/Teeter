@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Atsākt</string>
     <string name="str_btn_quit">Iziet</string>
     <string name="str_btn_restart">Restartēt</string>
+    <string name="str_btn_cancel">Atcelt</string>
     <string name="str_level_caption">Līmenis %d ir pabeigts</string>
     <string name="str_level_time">Līmeņa laiks</string>
     <string name="str_level_attempt">Līmeņa mēģinājumi</string>

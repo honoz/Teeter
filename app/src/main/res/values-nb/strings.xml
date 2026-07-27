@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Gjenoppta</string>
     <string name="str_btn_quit">Avslutt</string>
     <string name="str_btn_restart">Start på nytt</string>
+    <string name="str_btn_cancel">Avbryt</string>
     <string name="str_level_caption">Nivå %d fullført</string>
     <string name="str_level_time">Nivåtid</string>
     <string name="str_level_attempt">Nivåforsøk</string>

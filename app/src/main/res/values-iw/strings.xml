@@ -5,6 +5,7 @@
     <string name="str_btn_resume">המשך</string>
     <string name="str_btn_quit">צא</string>
     <string name="str_btn_restart">הפעל מחדש</string>
+    <string name="str_btn_cancel">ביטול</string>
     <string name="str_level_caption">רמה %d הסתיימה</string>
     <string name="str_level_time">משך זמן הרמה</string>
     <string name="str_level_attempt">מספר נסיונות הרמה</string>

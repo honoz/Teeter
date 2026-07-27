@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Συνέχιση</string>
     <string name="str_btn_quit">Έξοδος</string>
     <string name="str_btn_restart">Επανεκκίνηση</string>
+    <string name="str_btn_cancel">Ακύρωση</string>
     <string name="str_level_caption">Επίπεδο %d ολοκληρώθηκε</string>
     <string name="str_level_time">Διάρκεια επιπέδου</string>
     <string name="str_level_attempt">Προσπάθειες επιπέδου</string>

@@ -5,6 +5,7 @@
     <string name="str_btn_resume">เล่นเกมส์ต่อ</string>
     <string name="str_btn_quit">ออก</string>
     <string name="str_btn_restart">เริ่มใหม่</string>
+    <string name="str_btn_cancel">ยกเลิก</string>
     <string name="str_level_caption">ระดับ %d เสร็จสิ้น</string>
     <string name="str_level_time">ระดับเวลา</string>
     <string name="str_level_attempt">ระดับความพยายาม</string>

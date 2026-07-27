@@ -5,6 +5,7 @@
     <string name="str_btn_resume">繼續</string>
     <string name="str_btn_quit">離開</string>
     <string name="str_btn_restart">重新開始</string>
+    <string name="str_btn_cancel">取消</string>
     <string name="str_level_caption">第 %d 關過關</string>
     <string name="str_level_time">過關時間</string>
     <string name="str_level_attempt">闖關次數</string>

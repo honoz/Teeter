@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Jatka</string>
     <string name="str_btn_quit">Lopeta</string>
     <string name="str_btn_restart">Käynnistä uudelleen</string>
+    <string name="str_btn_cancel">Peruuta</string>
     <string name="str_level_caption">Taso %d läpäisty</string>
     <string name="str_level_time">Aika</string>
     <string name="str_level_attempt">Yritykset</string>

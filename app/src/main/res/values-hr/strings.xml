@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Nastavi</string>
     <string name="str_btn_quit">Prekini</string>
     <string name="str_btn_restart">Ponovo pokreni</string>
+    <string name="str_btn_cancel">Odustani</string>
     <string name="str_level_caption">Razina %d završena</string>
     <string name="str_level_time">Vrijeme za razinu</string>
     <string name="str_level_attempt">Pokušaja za razinu</string>

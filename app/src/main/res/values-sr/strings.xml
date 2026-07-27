@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Nastavi</string>
     <string name="str_btn_quit">Napusti</string>
     <string name="str_btn_restart">Ponovo pokreni</string>
+    <string name="str_btn_cancel">Откажи</string>
     <string name="str_level_caption">Završen je %d nivo.</string>
     <string name="str_level_time">Vreme nivoa</string>
     <string name="str_level_attempt">Nivo pokušaja</string>

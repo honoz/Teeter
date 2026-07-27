@@ -198,7 +198,7 @@ class CTeeterActivity : AppCompatActivity() {
                         mGame!!.fnStart(CGameModel.START_NEWGAME_NEED_INIT)
                     }
                 }
-                aBuilder.setNegativeButton(android.R.string.cancel) { _, _ ->
+                aBuilder.setNegativeButton(R.string.str_btn_cancel) { _, _ ->
                     mGame!!.fnStart(CGameModel.START_CONTINUE)
                 }
                 val dialog = aBuilder.create()

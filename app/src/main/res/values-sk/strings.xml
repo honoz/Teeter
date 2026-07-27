@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Pokračovať</string>
     <string name="str_btn_quit">Ukončiť</string>
     <string name="str_btn_restart">Restartovať</string>
+    <string name="str_btn_cancel">Zrušiť</string>
     <string name="str_level_caption">Úroveň %d dokončená</string>
     <string name="str_level_time">Čas úrovne</string>
     <string name="str_level_attempt">Pokusy na úroveň</string>

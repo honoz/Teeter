@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Tęsti</string>
     <string name="str_btn_quit">Baigti</string>
     <string name="str_btn_restart">Paleisti iš naujo</string>
+    <string name="str_btn_cancel">Atšaukti</string>
     <string name="str_level_caption">%d lygis baigtas</string>
     <string name="str_level_time">Lygio laikas</string>
     <string name="str_level_attempt">Lygio bandymai</string>

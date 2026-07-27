@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Folytatás</string>
     <string name="str_btn_quit">Kilépés</string>
     <string name="str_btn_restart">Újraindítás</string>
+    <string name="str_btn_cancel">Mégse</string>
     <string name="str_level_caption">%d. szint teljesítve</string>
     <string name="str_level_time">Szintidő</string>
     <string name="str_level_attempt">Szint próbálkozások</string>

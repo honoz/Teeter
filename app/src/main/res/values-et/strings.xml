@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Taasta</string>
     <string name="str_btn_quit">Lõpeta</string>
     <string name="str_btn_restart">Taaskäivita</string>
+    <string name="str_btn_cancel">Tühista</string>
     <string name="str_level_caption">Tase %d lõpetatud</string>
     <string name="str_level_time">Taseme aeg</string>
     <string name="str_level_attempt">Taseme katsed</string>

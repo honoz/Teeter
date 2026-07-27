@@ -5,6 +5,7 @@
     <string name="str_btn_resume">ادامه</string>
     <string name="str_btn_quit">خروج</string>
     <string name="str_btn_restart">راه‌اندازی مجدد</string>
+    <string name="str_btn_cancel">لغو</string>
     <string name="str_level_caption">سطح %d تکمیل شد</string>
     <string name="str_level_time">زمان سطح</string>
     <string name="str_level_attempt">تلاش‌هاي سطح</string>

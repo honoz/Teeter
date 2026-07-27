@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Wznów</string>
     <string name="str_btn_quit">Zakończ</string>
     <string name="str_btn_restart">Uruchom ponownie</string>
+    <string name="str_btn_cancel">Anuluj</string>
     <string name="str_level_caption">Poziom %d zakończony</string>
     <string name="str_level_time">Czas trwania poziomu</string>
     <string name="str_level_attempt">Liczba podejść do poziomu</string>

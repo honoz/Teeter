@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Reluare</string>
     <string name="str_btn_quit">Ieşire</string>
     <string name="str_btn_restart">Repornire</string>
+    <string name="str_btn_cancel">Anulare</string>
     <string name="str_level_caption">Nivelul %d terminat</string>
     <string name="str_level_time">Durată nivel</string>
     <string name="str_level_attempt">Încercări nivel</string>

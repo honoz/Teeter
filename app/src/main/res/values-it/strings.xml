@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Riprendi</string>
     <string name="str_btn_quit">Esci</string>
     <string name="str_btn_restart">Riavvia</string>
+    <string name="str_btn_cancel">Annulla</string>
     <string name="str_level_caption">Livello %d completato</string>
     <string name="str_level_time">Tempo livello</string>
     <string name="str_level_attempt">Tentativi livello</string>

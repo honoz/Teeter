@@ -5,6 +5,7 @@
     <string name="str_btn_resume">ဆက်လက်ကစားပါ</string>
     <string name="str_btn_quit">ထွက်ပါ</string>
     <string name="str_btn_restart">ပြန်စပါ</string>
+    <string name="str_btn_cancel">ပယ်ဖျက်ပါ</string>
     <string name="str_level_caption">Level %d ပြီးဆုံးပါပြီ</string>
     <string name="str_level_time">အဆင့်အချိန်</string>
     <string name="str_level_attempt">အဆင့်အကြိမ်</string>

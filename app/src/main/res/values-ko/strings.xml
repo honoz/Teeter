@@ -5,6 +5,7 @@
     <string name="str_btn_resume">다시 시작</string>
     <string name="str_btn_quit">종료</string>
     <string name="str_btn_restart">다시 시작</string>
+    <string name="str_btn_cancel">취소</string>
     <string name="str_level_caption">레벨 %d 완료</string>
     <string name="str_level_time">레벨 시간</string>
     <string name="str_level_attempt">레벨 시도</string>

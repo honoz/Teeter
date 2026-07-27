@@ -5,6 +5,7 @@
     <string name="str_btn_resume">再開</string>
     <string name="str_btn_quit">終了</string>
     <string name="str_btn_restart">再起動</string>
+    <string name="str_btn_cancel">キャンセル</string>
     <string name="str_level_caption">レベル %d 完了</string>
     <string name="str_level_time">レベル時間</string>
     <string name="str_level_attempt">試行レベル</string>

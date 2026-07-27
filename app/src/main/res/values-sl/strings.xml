@@ -5,6 +5,7 @@
     <string name="str_btn_resume">Nadaljuj</string>
     <string name="str_btn_quit">Izhod</string>
     <string name="str_btn_restart">Ponovni zagon</string>
+    <string name="str_btn_cancel">Prekliči</string>
     <string name="str_level_caption">Stopnja %d je končana</string>
     <string name="str_level_time">Čas za končanje stopnje</string>
     <string name="str_level_attempt">Število poskusov po stopnjah</string>
