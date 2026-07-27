@@ -16,7 +16,6 @@ import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.edit
-import androidx.fragment.app.DialogFragment
 import androidx.preference.PreferenceManager
 import com.htc.android.teeter.utils.LogUtils
 import com.htc.android.teeter.utils.TTConstants
@@ -24,16 +23,13 @@ import org.xmlpull.v1.XmlPullParserException
 import java.io.IOException
 import java.lang.ref.WeakReference
 
-interface ITeeterDialogCreator {
-    fun onCreateTeeterDialog(dialogId: Int): Dialog?
-}
-
-class CTeeterActivity : AppCompatActivity(),
-    ITeeterDialogCreator {
+class CTeeterActivity : AppCompatActivity() {
 
     private val dialogPauseDefaultOption = 291
     private val dialogRestartDefaultOption = 1110
     private val dialogRestartOption = 1929
+    private val dialogPause = 1
+    private val dialogContinue = 3
     private var mAudioManager: AudioManager? = null
     private var mGame: CGameModel? = null
     private var mHandler: LightHandler? = null
@@ -159,8 +155,10 @@ class CTeeterActivity : AppCompatActivity(),
         when (mGame!!.fnGetGameState()) {
             CGameModel.STATE_INITIALIZED -> mGame!!.fnStart(CGameModel.START_NEWGAME)
             CGameModel.STATE_FINISH_LEVEL -> mGame!!.fnStart(CGameModel.START_NEXTLEVEL)
-            CGameModel.STATE_STOPPED, CGameModel.STATE_UNINITIALIZED -> showTeeterDialog(3, if (CU.GAME_OVER) dialogRestartOption else dialogRestartDefaultOption)
-            CGameModel.STATE_PAUSED -> showTeeterDialog(3, if (CU.GAME_OVER) dialogRestartOption else dialogRestartDefaultOption)
+            CGameModel.STATE_STOPPED, CGameModel.STATE_UNINITIALIZED, CGameModel.STATE_PAUSED -> {
+                @Suppress("DEPRECATION")
+                showDialog(dialogContinue)
+            }
             else -> {}
         }
         LogUtils.d(TTConstants.TEETER_ACTIVITY_TAG, "onResume")
@@ -181,15 +179,11 @@ class CTeeterActivity : AppCompatActivity(),
         super.onStop()
     }
 
-    private fun showTeeterDialog(dialogId: Int, cancelMsgWhat: Int) {
-        if (supportFragmentManager.findFragmentByTag("teeter_dialog") != null) return
-        val fragment = TeeterDialogFragment.newInstance(dialogId, cancelMsgWhat)
-        fragment.show(supportFragmentManager, "teeter_dialog")
-    }
-
-    override fun onCreateTeeterDialog(dialogId: Int): Dialog? {
-        return when (dialogId) {
-            1 -> {
+    @Deprecated("Deprecated")
+    @Suppress("DEPRECATION")
+    override fun onCreateDialog(id: Int): Dialog? {
+        return when (id) {
+            dialogPause -> {
                 val aBuilder = AlertDialog.Builder(this)
                 aBuilder.setTitle(R.string.private_app)
                 aBuilder.setMessage(R.string.str_msg_quit)
@@ -204,15 +198,18 @@ class CTeeterActivity : AppCompatActivity(),
                         mGame!!.fnStart(CGameModel.START_NEWGAME_NEED_INIT)
                     }
                 }
-                aBuilder.setNegativeButton(R.string.str_btn_restart) { _, _ ->
+                aBuilder.setNegativeButton(android.R.string.cancel) { _, _ ->
                     mGame!!.fnStart(CGameModel.START_CONTINUE)
                 }
                 val dialog = aBuilder.create()
                 setupDialogImmersive(dialog)
+                dialog.setOnCancelListener {
+                    mDialogHandler.obtainMessage(dialogPauseDefaultOption).sendToTarget()
+                }
                 dialog
             }
 
-            3 -> {
+            dialogContinue -> {
                 val aBuilder2 = AlertDialog.Builder(this)
                 aBuilder2.setTitle(R.string.private_app)
                 aBuilder2.setMessage(R.string.str_msg_continue)
@@ -229,6 +226,10 @@ class CTeeterActivity : AppCompatActivity(),
                 }
                 val dialog2 = aBuilder2.create()
                 setupDialogImmersive(dialog2)
+                dialog2.setOnCancelListener {
+                    val cancelMsgWhat = if (CU.GAME_OVER) dialogRestartOption else dialogRestartDefaultOption
+                    mDialogHandler.obtainMessage(cancelMsgWhat).sendToTarget()
+                }
                 dialog2
             }
 
@@ -263,7 +264,8 @@ class CTeeterActivity : AppCompatActivity(),
                         mGame!!.fnStop()
                         mGame!!.lockTimer("Activity-onTouchEvent")
                         mGame!!.gamePause()
-                        showTeeterDialog(1, dialogPauseDefaultOption)
+                        @Suppress("DEPRECATION")
+                        showDialog(dialogPause)
                     }
                 }
             }
@@ -316,10 +318,6 @@ class CTeeterActivity : AppCompatActivity(),
     override fun onWindowFocusChanged(hasFocus: Boolean) {
         if (hasFocus) {
             hideSystemUI()
-            when (mGame!!.fnGetGameState()) {
-                CGameModel.STATE_UNINITIALIZED, CGameModel.STATE_STOPPED -> showTeeterDialog(3, if (CU.GAME_OVER) dialogRestartOption else dialogRestartDefaultOption)
-                CGameModel.STATE_PAUSED -> showTeeterDialog(1, dialogPauseDefaultOption)
-            }
         }
         super.onWindowFocusChanged(hasFocus)
     }
@@ -427,38 +425,6 @@ class CTeeterActivity : AppCompatActivity(),
                 or View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
                 or View.SYSTEM_UI_FLAG_FULLSCREEN
             )
-        }
-    }
-
-    class TeeterDialogFragment : DialogFragment() {
-        override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
-            val dialogId = requireArguments().getInt(ARG_DIALOG_ID)
-            val cancelMsgWhat = requireArguments().getInt(ARG_CANCEL_MSG_WHAT)
-            val activity = requireActivity() as ITeeterDialogCreator
-            val dialog = activity.onCreateTeeterDialog(dialogId)
-                ?: throw IllegalStateException("Dialog creation returned null for dialogId=$dialogId")
-            dialog.setOnCancelListener {
-                val act = activity as CTeeterActivity
-                val msg = Message()
-                msg.what = cancelMsgWhat
-                msg.target = act.mDialogHandler
-                msg.sendToTarget()
-            }
-            return dialog
-        }
-
-        companion object {
-            private const val ARG_DIALOG_ID = "dialog_id"
-            private const val ARG_CANCEL_MSG_WHAT = "cancel_msg_what"
-
-            fun newInstance(dialogId: Int, cancelMsgWhat: Int): TeeterDialogFragment {
-                return TeeterDialogFragment().apply {
-                    arguments = Bundle().apply {
-                        putInt(ARG_DIALOG_ID, dialogId)
-                        putInt(ARG_CANCEL_MSG_WHAT, cancelMsgWhat)
-                    }
-                }
-            }
         }
     }
 
