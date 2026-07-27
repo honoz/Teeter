@@ -13,7 +13,7 @@ Since the original decompiled code could not be compiled and run directly, this 
 - Fixed compilation errors and adapted to the modern Android build toolchain
 - Migrated Java code to Kotlin
 - Adapted to AndroidX and new APIs
-- Fixed runtime issues and improved multi-screen aspect ratio adaptation
+- Fixed runtime issues and improved multiscreen aspect ratio adaptation
 - Optimized and refactored code structure
 
 ## Game Features
@@ -25,19 +25,29 @@ Since the original decompiled code could not be compiled and run directly, this 
 - **Animation effects**: Ball falling into hole animation, level completion animation
 - **Progress saving**: Automatically saves/restores game progress (level, time, number of attempts, etc.)
 - **Multi-language support**: Supports 30+ languages/regions
-- **Multi-screen aspect ratio adaptation**: Supports centered display for different screen aspect ratios such as 16:9 and 21:9
+- **Multiscreen aspect ratio adaptation**: Supports centered display for different screen aspect ratios such as 16:9 and 21:9
+
+## Screenshots
+
+|                      Splash                       |                  Gameplay                   |
+|:-------------------------------------------------:|:-------------------------------------------:|
+|         ![Splash](screenshots/splash.jpg)         |    ![Gameplay](screenshots/gameplay.jpg)    |
+
+|                  Level Complete                   |                 High Scores                 |
+|:-------------------------------------------------:|:-------------------------------------------:|
+| ![Level Complete](screenshots/level_complete.jpg) | ![High Scores](screenshots/leaderboard.jpg) |
 
 ## Tech Stack
 
-| Item           | Description                   |
-| -------------- | ----------------------------- |
-| Language       | Kotlin                        |
-| Min API        | Android 6.0 (API 23)          |
-| Target API     | Android 16 (API 36)           |
-| Build Tool     | Gradle (Kotlin DSL)           |
-| AGP Version    | 9.0.1                         |
-| UI Framework   | AndroidX AppCompat + Material |
-| Dependency Mgmt| Version Catalog (libs.versions.toml) |
+|       Item        |              Description              |
+|:-----------------:|:-------------------------------------:|
+|     Language      |                Kotlin                 |
+|      Min API      |         Android 6.0 (API 23)          |
+|    Target API     |          Android 16 (API 36)          |
+|    Build Tool     |          Gradle (Kotlin DSL)          |
+|    AGP Version    |                 9.0.1                 |
+|   UI Framework    |     AndroidX AppCompat + Material     |
+|  Dependency Mgmt  | Version Catalog (libs.versions.toml)  |
 
 ## Project Structure
 
