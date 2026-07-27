@@ -7,7 +7,8 @@
 
     <application
         android:description="@string/private_app"
-        android:icon="@drawable/icon_launcher_teeter"
+        android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:label="@string/private_app">
         <activity
             android:name="CCoverActivity"
