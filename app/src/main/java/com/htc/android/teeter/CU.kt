@@ -43,7 +43,7 @@ object CU {
     var END_RATIO = 1.3f
     var END_ANIM_RATIO = 2.13f
     var HOLE_ANIM_RATIO = 1.333f
-    var DEBUG = false
+    var DEBUG = BuildConfig.DEBUG_MODE
     var GAME_OVER = false
     var TOUCHABLE = true
     var TIMER_GO = false

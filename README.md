@@ -39,15 +39,15 @@ Since the original decompiled code could not be compiled and run directly, this 
 
 ## Tech Stack
 
-|       Item        |              Description              |
-|:-----------------:|:-------------------------------------:|
-|     Language      |                Kotlin                 |
-|      Min API      |         Android 6.0 (API 23)          |
-|    Target API     |          Android 16 (API 36)          |
-|    Build Tool     |          Gradle (Kotlin DSL)          |
-|    AGP Version    |                 9.0.1                 |
-|   UI Framework    |     AndroidX AppCompat + Material     |
-|  Dependency Mgmt  | Version Catalog (libs.versions.toml)  |
+|       Item        |             Description              |
+|:-----------------:|:------------------------------------:|
+|     Language      |                Kotlin                |
+|      Min API      |         Android 5.0 (API 21)         |
+|    Target API     |         Android 16 (API 36)          |
+|    Build Tool     |         Gradle (Kotlin DSL)          |
+|    AGP Version    |                9.0.1                 |
+|   UI Framework    |    AndroidX AppCompat + Material     |
+|  Dependency Mgmt  | Version Catalog (libs.versions.toml) |
 
 ## Project Structure
 

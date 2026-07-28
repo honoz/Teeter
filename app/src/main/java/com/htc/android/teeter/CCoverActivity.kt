@@ -2,7 +2,6 @@ package com.htc.android.teeter
 
 import android.annotation.SuppressLint
 import android.content.Intent
-import android.content.pm.ActivityInfo
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.drawable.AnimationDrawable
@@ -92,7 +91,6 @@ class CCoverActivity : AppCompatActivity() {
         hasSensor = checkHasSensor()
         if (!hasSensor) {
             @Suppress("DEPRECATION")
-            requestedOrientation = ActivityInfo.SCREEN_ORIENTATION_PORTRAIT
             mHandler.sendEmptyMessageDelayed(GAME_EXIT, 5000L)
             createNoSensorDialog().show()
         } else {

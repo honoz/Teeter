@@ -10,7 +10,8 @@ android {
 
     defaultConfig {
         applicationId = "com.htc.android.teeter"
-        minSdk = 23
+        minSdk = 21
+        //noinspection OldTargetApi
         targetSdk = 36
         versionCode = 111351810
         versionName = "1.1.2220402125.459176.246117"
@@ -18,8 +19,16 @@ android {
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
 
+    buildFeatures {
+        buildConfig = true
+    }
+
     buildTypes {
+        debug {
+            buildConfigField("boolean", "DEBUG_MODE", "true")
+        }
         release {
+            buildConfigField("boolean", "DEBUG_MODE", "false")
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -27,9 +36,15 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+    packaging {
+        resources {
+            excludes += "DebugProbesKt.bin"
+        }
     }
 }
 

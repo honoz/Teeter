@@ -265,7 +265,7 @@ class CBGLoadingThread(private var mActivity: Activity?, private val mLevel: Int
             }
         }
 
-        if (CU.DEBUG) {
+        if (BuildConfig.DEBUG_MODE) {
             val p = Paint()
             val dx = offsetX.toInt()
             val dy = offsetY.toInt()
